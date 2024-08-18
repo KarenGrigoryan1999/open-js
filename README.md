@@ -15,7 +15,7 @@
 ## Жизненный цикл выражений и стейтментов
 В соответствии со спецификацией, существуют три стадии интерпретации кода в js. Мы можем получить доступ к двум стадиям: Static Semantic и Runtime Semantic. Мне больше нравится называть их хуками жизненного цикла. Пример использования данных стадий приведен ниже:
 
-```
+```c
 #include "IfStatement.h"
 
 IfStatement::IfStatement(Expression* condition, Node* if_statement, Node* else_statement) {
