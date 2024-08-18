@@ -46,3 +46,106 @@ BaseValue* IfStatement::eval() {
 
 //https://262.ecma-international.org/#sec-if-statement
 ```
+
+## Как написать built-in функцию
+В рантайме реализованы некоторы built-in функции (isNan, parseInt, setTimeout, queueMicrotask и так далее). Создать собственную встроенную функцию очень легко! Достаточно добавить её реализацию в класс Functions. Темплейт built-in функции выглядит так:
+```c
+// реализация функции isNan
+//args - вектор, содержащий список переданных в функцию аргументов
+BaseValue* is_nan(vector<Expression*>* args) {
+	string temp;
+	if (args->at(0)->eval()->GetType() == ValueTypes::NAN_TYPE) return new BoolType(true);
+
+	return new BoolType(false);
+}
+```
+
+## Некоторые особенности рантайма
+Сюда я буду выносить некоторые особенности и огрехи, которые есть в рантайме
+
+1. В рантайме нет объекта console ( Пока используйте функцию print
+2. Особенности конвертации ссылочных типов
+При неявном преобразовании объектов в примитив можно увидеть что рантайм выдает ошибку:
+```js
+const exp = ({}) + 10;
+print(exp);//Uncaught TypeError: Cannot convert object to primitive value
+```
+
+В других рантаймах все будет ок и выведится ```[object Object]10```. На самом деле это не противоречит спеке. Дело в том что по спецификации рантайм должен попробовать использовать метод toString или valueOf. Если их нет, то он обязан выдать ошибку типа TypeError. В моем рантайме методы valueOf и toString не определены, но вы можете их определить самостоятельно:
+```js
+Object.prototype.toString = function() {
+  return "[object Object]";
+}
+const exp = ({}) + 10;
+print(exp);//Выведется [object Object]10
+```
+3. Механизм замыканий
+В рантайме работает механизм замыканий, но он вечно ломается. Думаю что в будущем код связанный с ExoticObjectFunction будет пересмотрен и в обязательном порядке будет покрыт тестами
+```js
+function counter(init) {
+  return function() {
+    return ++init;
+  }
+}
+
+const cnt1 = counter(1);
+const cnt2 = counter(100);
+
+print("cnt1: ", cnt1());
+print("cnt2: ", cnt2());
+print("cnt2: ", cnt2());
+print("cnt1: ", cnt1());
+
+/*
+Результат будет:
+cnt1:  2
+cnt2:  101
+cnt2:  102
+cnt1:  3
+*/
+```
+4. Прототипное наследование, this и дескрипторы свойств
+Вы можете получать доступ к this, писать ООП код через прототипы и делать геттеры и сеттеры!
+```js
+function Lion(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+Lion.prototype.sayHello = function() {
+  return "Hello, I am " + this.name + ", I am " + this.age + " years old!";
+}
+
+const Simba = new Lion("Simba", 5);
+
+Object.defineProperty(Simba, "greeting", {
+  get: function() {
+    return "Hello, I am " + this.name + "!";
+  },
+});
+
+Object.defineProperty(Simba, "height", {
+  get: function() {
+    return "my height is " + this.h;
+  },
+  set: function(value) {
+    this.h = value + " sm";
+  }
+});
+
+print(Simba.sayHello());
+
+print(Simba.greeting);
+
+Simba.height = 1;
+
+print(Simba.height);
+
+\* Выведет:
+Hello, I am Simba, I am 5 years old!
+Hello, I am Simba!
+my height is 1 sm
+*\
+```
+5. В рантайме пока нет массивов (
+6. В рантайме пока нет Infinity ((
