@@ -17,18 +17,20 @@
 Все структуры в кодовой базе рантайма, которые связаны со спецификацией именуются начиная с префикса Ecma, Например: EcmaEnvironment, EcmaExecutionContext, EcmaCompletionRecord и т. д. Все остальные структуры и классы являются машинерией рантайма
 
 ## Жизненный цикл выражений и стейтментов
-В соответствии со спецификацией, существуют три стадии интерпретации кода в js. Мы можем получить доступ к двум стадиям: Static Semantic и Runtime Semantic. Мне больше нравится называть их хуками жизненного цикла. Пример использования данных стадий приведен ниже:
+В соответствии со спецификацией, существуют три стадии интерпретации кода в js. Мы можем получить доступ к двум стадиям: Static Semantic и Runtime Semantic. Мне больше нравится называть их хуками жизненного цикла.
+Конструктор Expression - код, исполняющийся на стадии Static Semantic. Метод eval - некоторый код, исполняющийся на стадии Runtime Semantic.
+Пример использования данных стадий приведен ниже:
 
 ```c
 #include "IfStatement.h"
 
 IfStatement::IfStatement(Expression* condition, Node* if_statement, Node* else_statement) {
 	//Static semantic
-	//Инициализация
+	//Инициализация (не отсносится к спеке)
 	this->condition_ = condition;
 	this->ifStatement_ = if_statement;
 	this->elseStatement_ = else_statement;
-	//Проверка на ошибки
+	//Проверка на ошибки на стадии Static Semantic
 	//Если в качестве ifStatement или elseStatement выступает меченая функция FunctionDeclaration, то в не строгом режиме будет ошибка типа SyntaxError
 	//TODO: как только в рантайме появятся метки - реализовать проверку на этой стадии
 }
