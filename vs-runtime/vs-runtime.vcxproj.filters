@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\dataTypes">
+      <UniqueIdentifier>{5373c86a-7b74-4adc-886d-2b23e7ece748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\dataTypes">
+      <UniqueIdentifier>{54fbc32e-73e1-4c5d-a303-49f7809d18e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\expressions">
+      <UniqueIdentifier>{072a4cd7-9bef-47f4-b4c0-e8ee9e8ee6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\expressions">
+      <UniqueIdentifier>{6123617a-0c9b-4f04-95dc-b57236781dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\statements">
+      <UniqueIdentifier>{9cb7e246-b376-43f4-b5b6-eda84aac2657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\statements">
+      <UniqueIdentifier>{2e89039d-811a-4956-bec0-b809776e2e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\dataTypes\complexTypes">
+      <UniqueIdentifier>{4da7585a-e156-4f89-9676-e0a958fb3415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\dataTypes\primitives">
+      <UniqueIdentifier>{ec62bdff-1fef-4d4b-876e-2ce83785cce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\dataTypes\complexTypes">
+      <UniqueIdentifier>{0b38c404-b3ec-44fb-b5f8-dd9e67367d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\dataTypes\primitives">
+      <UniqueIdentifier>{28556d17-a4e8-45a6-b65f-e656bddb804f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\vitalStructures">
+      <UniqueIdentifier>{4aec2fe0-de7a-472e-851c-6be587fff7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\vitalStructures">
+      <UniqueIdentifier>{61e9f862-1c84-4253-8218-e81293a8613a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\exceptions">
+      <UniqueIdentifier>{d85b6898-5a0c-4d47-a99e-7654d283cf0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\exceptions">
+      <UniqueIdentifier>{947318f7-0cbe-460a-acf3-ea0e8f1dd695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GC">
+      <UniqueIdentifier>{fa26e9a5-e57d-4ebc-97b3-65e13d5d9053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GC">
+      <UniqueIdentifier>{943f3083-db1f-41cc-885b-8f8c8873b92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\eventloop">
+      <UniqueIdentifier>{a11a2459-9a0f-4a72-a31f-756cfd77ec18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\eventloop">
+      <UniqueIdentifier>{9ef12388-e785-4449-bda8-69865e7fcb6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\operators">
+      <UniqueIdentifier>{d3adff8e-6782-4994-bd85-360a1f1bc10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\operators">
+      <UniqueIdentifier>{963a0895-a3cd-4e3f-9f25-211a9c8b937c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vs-runtime.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="IdentifierCollection.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="StringExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="IdentifierReference.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Statement.cpp">
+      <Filter>Исходные файлы\statements</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableStatement.cpp">
+      <Filter>Исходные файлы\statements</Filter>
+    </ClCompile>
+    <ClCompile Include="IfStatement.cpp">
+      <Filter>Исходные файлы\statements</Filter>
+    </ClCompile>
+    <ClCompile Include="BooleanExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ForStatement.cpp">
+      <Filter>Исходные файлы\statements</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockStatement.cpp">
+      <Filter>Исходные файлы\statements</Filter>
+    </ClCompile>
+    <ClCompile Include="CallExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NanExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="UndefinedExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionDeclaration.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="AnonumousFuncExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockBaseStatement.cpp">
+      <Filter>Исходные файлы\statements</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionBodyStatement.cpp">
+      <Filter>Исходные файлы\statements</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="DotExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseValue.cpp">
+      <Filter>Исходные файлы\dataTypes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolType.cpp">
+      <Filter>Исходные файлы\dataTypes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="NanType.cpp">
+      <Filter>Исходные файлы\dataTypes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberType.cpp">
+      <Filter>Исходные файлы\dataTypes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="StringType.cpp">
+      <Filter>Исходные файлы\dataTypes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="TDZValue.cpp">
+      <Filter>Исходные файлы\dataTypes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="UndefinedType.cpp">
+      <Filter>Исходные файлы\dataTypes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EcmaPropertyAttributes.cpp">
+      <Filter>Исходные файлы\dataTypes\complexTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="EcmaExecutionContext.cpp">
+      <Filter>Исходные файлы\vitalStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="EcmaEnvironment.cpp">
+      <Filter>Исходные файлы\vitalStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="EcmaContextStack.cpp">
+      <Filter>Исходные файлы\vitalStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="ThisExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeCodeRealisation.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPropertyDescriptorState.cpp">
+      <Filter>Исходные файлы\dataTypes\complexTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="NullType.cpp">
+      <Filter>Исходные файлы\dataTypes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="NullExpression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Errors.cpp">
+      <Filter>Исходные файлы\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="WhileStatement.cpp">
+      <Filter>Исходные файлы\statements</Filter>
+    </ClCompile>
+    <ClCompile Include="GarbigeCollector.cpp">
+      <Filter>Исходные файлы\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectableEntity.cpp">
+      <Filter>Исходные файлы\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="JobQueue.cpp">
+      <Filter>Исходные файлы\vitalStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseException.cpp">
+      <Filter>Исходные файлы\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceError.cpp">
+      <Filter>Исходные файлы\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxError.cpp">
+      <Filter>Исходные файлы\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeError.cpp">
+      <Filter>Исходные файлы\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLoop.cpp">
+      <Filter>Исходные файлы\eventloop</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeofOperator.cpp">
+      <Filter>Исходные файлы\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="NewOperator.cpp">
+      <Filter>Исходные файлы\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnStatement.cpp">
+      <Filter>Исходные файлы\statements</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryOperator.cpp">
+      <Filter>Исходные файлы\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="IncrementOperator.cpp">
+      <Filter>Исходные файлы\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicalOperator.cpp">
+      <Filter>Исходные файлы\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="UnaryOperator.cpp">
+      <Filter>Исходные файлы\operators</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lexer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LexicalTokenType.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IdentifierCollection.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="StringExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="IdentifierReference.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableStatement.h">
+      <Filter>Файлы заголовков\statements</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.h">
+      <Filter>Файлы заголовков\statements</Filter>
+    </ClInclude>
+    <ClInclude Include="IfStatement.h">
+      <Filter>Файлы заголовков\statements</Filter>
+    </ClInclude>
+    <ClInclude Include="BooleanExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ForStatement.h">
+      <Filter>Файлы заголовков\statements</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockStatement.h">
+      <Filter>Файлы заголовков\statements</Filter>
+    </ClInclude>
+    <ClInclude Include="CallExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="NanExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="UndefinedExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionDeclaration.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="AnonumousFuncExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockBaseStatement.h">
+      <Filter>Файлы заголовков\statements</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionBodyStatement.h">
+      <Filter>Файлы заголовков\statements</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="DotExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="BoolType.h">
+      <Filter>Файлы заголовков\dataTypes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseValue.h">
+      <Filter>Файлы заголовков\dataTypes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="NanType.h">
+      <Filter>Файлы заголовков\dataTypes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberType.h">
+      <Filter>Файлы заголовков\dataTypes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="StringType.h">
+      <Filter>Файлы заголовков\dataTypes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="TDZValue.h">
+      <Filter>Файлы заголовков\dataTypes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="UndefinedType.h">
+      <Filter>Файлы заголовков\dataTypes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableTypes.h">
+      <Filter>Файлы заголовков\dataTypes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EcmaPropertyAttributes.h">
+      <Filter>Файлы заголовков\dataTypes\complexTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="EcmaExecutionContext.h">
+      <Filter>Файлы заголовков\vitalStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="EcmaEnvironment.h">
+      <Filter>Файлы заголовков\vitalStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="EcmaContextStack.h">
+      <Filter>Файлы заголовков\vitalStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="ThisExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeCodeRealisation.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeMethodsTypes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPropertyDescriptorState.h">
+      <Filter>Файлы заголовков\dataTypes\complexTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="NullType.h">
+      <Filter>Файлы заголовков\dataTypes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="NullExpression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptionTypes.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="WhileStatement.h">
+      <Filter>Файлы заголовков\statements</Filter>
+    </ClInclude>
+    <ClInclude Include="GarbigeCollector.h">
+      <Filter>Файлы заголовков\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectableEntity.h">
+      <Filter>Файлы заголовков\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="GCItem.h">
+      <Filter>Файлы заголовков\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="JobQueue.h">
+      <Filter>Файлы заголовков\vitalStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseException.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeError.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxError.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceError.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLoop.h">
+      <Filter>Файлы заголовков\eventloop</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeoutItem.h">
+      <Filter>Файлы заголовков\eventloop</Filter>
+    </ClInclude>
+    <ClInclude Include="HiddenProperties.h">
+      <Filter>Файлы заголовков\vitalStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeofOperator.h">
+      <Filter>Файлы заголовков\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="NewOperator.h">
+      <Filter>Файлы заголовков\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="EcmaCompletionRecord.h">
+      <Filter>Файлы заголовков\vitalStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnStatement.h">
+      <Filter>Файлы заголовков\statements</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryOperator.h">
+      <Filter>Файлы заголовков\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="IncrementOperator.h">
+      <Filter>Файлы заголовков\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicalOperator.h">
+      <Filter>Файлы заголовков\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryOperator.h">
+      <Filter>Файлы заголовков\operators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\Program Files (x86)\libuv\libuv.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="vs-runtime.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

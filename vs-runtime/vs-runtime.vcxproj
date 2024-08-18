@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3e91a4c2-99e8-4ccf-bd2c-4b4480a705de}</ProjectGuid>
+    <RootNamespace>vsruntime</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libuv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\libuv\lib;C:\libuv;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnonumousFuncExpression.cpp" />
+    <ClCompile Include="BaseException.cpp" />
+    <ClCompile Include="BinaryOperator.cpp" />
+    <ClCompile Include="BlockBaseStatement.cpp" />
+    <ClCompile Include="BlockStatement.cpp" />
+    <ClCompile Include="BooleanExpression.cpp" />
+    <ClCompile Include="BoolType.cpp" />
+    <ClCompile Include="CollectableEntity.cpp" />
+    <ClCompile Include="EcmaContextStack.cpp" />
+    <ClCompile Include="DotExpression.cpp" />
+    <ClCompile Include="EmptyExpression.cpp" />
+    <ClCompile Include="Errors.cpp" />
+    <ClCompile Include="EventLoop.cpp" />
+    <ClCompile Include="EcmaExecutionContext.cpp" />
+    <ClCompile Include="GarbigeCollector.cpp" />
+    <ClCompile Include="JobQueue.cpp" />
+    <ClCompile Include="NullExpression.cpp" />
+    <ClCompile Include="NullType.cpp" />
+    <ClCompile Include="ObjectPropertyDescriptorState.cpp" />
+    <ClCompile Include="FunctionDeclaration.cpp" />
+    <ClCompile Include="EcmaEnvironment.cpp" />
+    <ClCompile Include="Expression.cpp" />
+    <ClCompile Include="ForStatement.cpp" />
+    <ClCompile Include="FunctionBodyStatement.cpp" />
+    <ClCompile Include="CallExpression.cpp" />
+    <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="IfStatement.cpp" />
+    <ClCompile Include="IncrementOperator.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="ReferenceError.cpp" />
+    <ClCompile Include="SyntaxError.cpp" />
+    <ClCompile Include="TypeError.cpp" />
+    <ClCompile Include="TypeofOperator.cpp" />
+    <ClCompile Include="Lexer.cpp" />
+    <ClCompile Include="LogicalOperator.cpp" />
+    <ClCompile Include="NanExpression.cpp" />
+    <ClCompile Include="NanType.cpp" />
+    <ClCompile Include="NativeCodeRealisation.cpp" />
+    <ClCompile Include="NewOperator.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="NumberExpression.cpp" />
+    <ClCompile Include="NumberType.cpp" />
+    <ClCompile Include="ObjectBase.cpp" />
+    <ClCompile Include="ObjectExpression.cpp" />
+    <ClCompile Include="EcmaPropertyAttributes.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="ReturnStatement.cpp" />
+    <ClCompile Include="Statement.cpp" />
+    <ClCompile Include="BaseValue.cpp" />
+    <ClCompile Include="StringExpression.cpp" />
+    <ClCompile Include="StringType.cpp" />
+    <ClCompile Include="TDZValue.cpp" />
+    <ClCompile Include="ThisExpression.cpp" />
+    <ClCompile Include="Token.cpp" />
+    <ClCompile Include="UnaryOperator.cpp" />
+    <ClCompile Include="UndefinedExpression.cpp" />
+    <ClCompile Include="UndefinedType.cpp" />
+    <ClCompile Include="IdentifierReference.cpp" />
+    <ClCompile Include="IdentifierCollection.cpp" />
+    <ClCompile Include="VariableStatement.cpp" />
+    <ClCompile Include="vs-runtime.cpp" />
+    <ClCompile Include="WhileStatement.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnonumousFuncExpression.h" />
+    <ClInclude Include="BaseException.h" />
+    <ClInclude Include="BinaryOperator.h" />
+    <ClInclude Include="BlockBaseStatement.h" />
+    <ClInclude Include="BlockStatement.h" />
+    <ClInclude Include="BooleanExpression.h" />
+    <ClInclude Include="BoolType.h" />
+    <ClInclude Include="CollectableEntity.h" />
+    <ClInclude Include="EcmaCompletionRecord.h" />
+    <ClInclude Include="EcmaContextStack.h" />
+    <ClInclude Include="DotExpression.h" />
+    <ClInclude Include="EmptyExpression.h" />
+    <ClInclude Include="Errors.h" />
+    <ClInclude Include="EventLoop.h" />
+    <ClInclude Include="exceptionTypes.h" />
+    <ClInclude Include="EcmaExecutionContext.h" />
+    <ClInclude Include="GarbigeCollector.h" />
+    <ClInclude Include="GCItem.h" />
+    <ClInclude Include="HiddenProperties.h" />
+    <ClInclude Include="JobQueue.h" />
+    <ClInclude Include="NullExpression.h" />
+    <ClInclude Include="NullType.h" />
+    <ClInclude Include="ObjectPropertyDescriptorState.h" />
+    <ClInclude Include="FunctionDeclaration.h" />
+    <ClInclude Include="EcmaEnvironment.h" />
+    <ClInclude Include="Expression.h" />
+    <ClInclude Include="ForStatement.h" />
+    <ClInclude Include="FunctionBodyStatement.h" />
+    <ClInclude Include="CallExpression.h" />
+    <ClInclude Include="Functions.h" />
+    <ClInclude Include="IfStatement.h" />
+    <ClInclude Include="IncrementOperator.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="ReferenceError.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SyntaxError.h" />
+    <ClInclude Include="TimeoutItem.h" />
+    <ClInclude Include="TypeError.h" />
+    <ClInclude Include="TypeofOperator.h" />
+    <ClInclude Include="Lexer.h" />
+    <ClInclude Include="LogicalOperator.h" />
+    <ClInclude Include="NanExpression.h" />
+    <ClInclude Include="NanType.h" />
+    <ClInclude Include="NativeCodeRealisation.h" />
+    <ClInclude Include="NativeMethodsTypes.h" />
+    <ClInclude Include="NewOperator.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="NumberExpression.h" />
+    <ClInclude Include="NumberType.h" />
+    <ClInclude Include="ObjectBase.h" />
+    <ClInclude Include="ObjectExpression.h" />
+    <ClInclude Include="EcmaPropertyAttributes.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="ReturnStatement.h" />
+    <ClInclude Include="Statement.h" />
+    <ClInclude Include="BaseValue.h" />
+    <ClInclude Include="StringExpression.h" />
+    <ClInclude Include="StringType.h" />
+    <ClInclude Include="TDZValue.h" />
+    <ClInclude Include="ThisExpression.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="LexicalTokenType.h" />
+    <ClInclude Include="UnaryOperator.h" />
+    <ClInclude Include="UndefinedExpression.h" />
+    <ClInclude Include="UndefinedType.h" />
+    <ClInclude Include="IdentifierReference.h" />
+    <ClInclude Include="IdentifierCollection.h" />
+    <ClInclude Include="VariableStatement.h" />
+    <ClInclude Include="VariableTypes.h" />
+    <ClInclude Include="WhileStatement.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\Program Files (x86)\libuv\libuv.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="vs-runtime.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

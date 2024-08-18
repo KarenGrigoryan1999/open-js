@@ -1,0 +1,125 @@
+﻿  AnonumousFuncExpression.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  BinaryOperator.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Errors.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  BlockBaseStatement.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\BlockBaseStatement.cpp(19,20): warning C4018: <: несоответствие типов со знаком и без знака
+  BlockStatement.cpp
+  DotExpression.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Errors.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  EventLoop.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\EventLoop.cpp(23,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\EventLoop.cpp(33,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\EventLoop.cpp(43,20): warning C4018: <: несоответствие типов со знаком и без знака
+  JobQueue.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  FunctionDeclaration.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  FunctionBodyStatement.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\FunctionBodyStatement.cpp(28,20): warning C4018: <: несоответствие типов со знаком и без знака
+  CallExpression.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\CallExpression.cpp(98,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\CallExpression.cpp(101,12): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\CallExpression.cpp(56,27): warning C4101: error_message: неиспользованная локальная переменная
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\CallExpression.cpp(66,25): warning C4101: msg: неиспользованная локальная переменная
+  Functions.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Errors.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.cpp(26,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.cpp(49,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.cpp(85,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.cpp(96,56): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.cpp(111,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.cpp(121,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.cpp(137,21): warning C4018: <: несоответствие типов со знаком и без знака
+  IncrementOperator.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Errors.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\IncrementOperator.cpp(47,27): warning C4101: error_message: неиспользованная локальная переменная
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\IncrementOperator.cpp(57,27): warning C4101: error_message: неиспользованная локальная переменная
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\IncrementOperator.cpp(71,24): warning C4101: err: неиспользованная локальная переменная
+  Program.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  NativeCodeRealisation.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Errors.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  NewOperator.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Errors.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  ObjectExpression.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\ObjectExpression.cpp(66,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\ObjectExpression.cpp(95,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\ObjectExpression.cpp(121,20): warning C4018: <: несоответствие типов со знаком и без знака
+  Parser.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Errors.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  TDZValue.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  IdentifierCollection.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\IdentifierCollection.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\IdentifierCollection.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Errors.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  vs-runtime.cpp
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Создание кода...
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Parser.cpp(102): warning C4715: Parser::kus_statement: значение возвращается не при всех путях выполнения
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\Functions.cpp(179): warning C4715: Functions::Get: значение возвращается не при всех путях выполнения
+C:\Users\Karen\source\repos\vs-runtime\vs-runtime\BinaryOperator.cpp(118): warning C4715: BinaryOperator::eval: значение возвращается не при всех путях выполнения
+  vs-runtime.vcxproj -> C:\Users\Karen\source\repos\vs-runtime\Debug\vs-runtime.exe
